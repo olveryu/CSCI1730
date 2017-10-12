@@ -1,0 +1,35 @@
+# Lab 12
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab12
+```
+
+## Reflection
+
+Compared to my initial brainstorm, first I was thinking
+about is there a function call repl so we can use it.
+I figure out it is a infnity loop to promt user for input.
+The hardest part for this lab is the split the process
+then split the argv for each process. For echo, we need to put
+all the argv together as one argv, I think when we are 
+doing the project 3, we should consider different situration
+some command can accept more than one argument that seperate
+by space.

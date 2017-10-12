@@ -1,0 +1,12 @@
+Yan-Zhenyu-p1/:
+total 152
+-rw-r--r--. 1 ugrad   258 Feb 22 15:51 Makefile
+-rw-r--r--. 1 ugrad  7619 Feb 23 11:16 Matrix.cpp
+-rw-r--r--. 1 ugrad  4809 Feb 24 13:45 Matrix.h
+-rw-r--r--. 1 ugrad 14232 Feb 27 00:40 Matrix.o
+-rwxr-xr-x. 1 ugrad 48432 Feb 27 00:42 p1
+-rw-r--r--. 1 ugrad  2594 Feb 27 00:42 p1.cpp
+-rw-r--r--. 1 ugrad 58536 Feb 27 00:42 p1.o
+-rw-r--r--. 1 ugrad   240 Feb 24 13:47 README
+-rw-r--r--. 1 ugrad     0 Feb 27 00:43 rec38089
+/home/ugrads/zhenyu/cs1730/Yan-Zhenyu-p1/:/home/work/cs1730a

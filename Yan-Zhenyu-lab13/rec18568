@@ -1,0 +1,12 @@
+Yan-Zhenyu-lab13/:
+total 1080
+-rwxr-xr-x. 1 ugrad 345325 Apr 28 03:23 main
+-rw-r--r--. 1 ugrad   2070 Apr 28 03:23 main.cpp
+-rw-r--r--. 1 ugrad 168304 Apr 28 03:23 main.o
+-rw-r--r--. 1 ugrad    260 Apr 28 03:23 makefile
+-rw-r--r--. 1 ugrad    847 Apr 28 03:23 README.txt
+-rw-r--r--. 1 ugrad      0 Apr 28 03:23 rec18568
+-rw-r--r--. 1 ugrad  16494 Apr 28 03:23 Shell.cpp
+-rw-r--r--. 1 ugrad   1593 Apr 28 03:23 Shell.h
+-rw-r--r--. 1 ugrad 545712 Apr 28 03:23 Shell.o
+/home/ugrads/zhenyu/cs1730/Yan-Zhenyu-lab13/:/home/work/cs1730a

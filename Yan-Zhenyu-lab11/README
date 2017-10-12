@@ -1,0 +1,35 @@
+# Lab 11
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab11 file .........................
+```
+
+## Reflection
+
+Compared to my initial brainstorm, I thought this lab
+should be very easy and similar to the rm function ,
+however, the copy directory stucks me more than 3 hours
+because I tried to use const * char for the fileName
+and because it is a pointer, the value keep change 
+and mess a lot of stuff. The second hard part is the copy
+the file with the same mode as the only file. At the begining
+I use fopen, but it does not have a paramemter with mode, so
+I changed to use open.
