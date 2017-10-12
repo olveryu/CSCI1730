@@ -1,0 +1,33 @@
+# Lab 09
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab09 file .........................
+```
+
+## Reflection
+
+Compared to my initial brainstorm, i think this lab
+is very short and very easy because there is sample
+code in the man 2 stat page, but acctually it takes
+a long time to finish because we need to set up all
+the condition if of the set ID. the upper and lower
+case S and T takes a long time to code. Overall this
+lab is not hard, but just comsume time.

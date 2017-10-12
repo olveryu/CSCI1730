@@ -1,0 +1,34 @@
+# Lab 08
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab08 file .........................
+```
+
+## Reflection
+
+Compared to my initial brainstorm, I was so confuse at
+the begining because I do not know how to use read(2)
+and write(2) at all, after I look at the man page by 
+using man 2 read, and man 2 write, I found out I need
+to include different header. Also for the STDOUT_FILENO
+I also need another header too. In this lab, I use the sterror
+to show the error. it is just like the try catch in java, that 
+is fun.

@@ -1,0 +1,24 @@
+Yan-Zhenyu-lab10/:
+total 184
+-rwxr-xr-x. 1 ugrad 70829 Apr  2 17:59 lab10
+-rw-r--r--. 1 ugrad  3288 Apr  2 17:58 lab10.cpp
+-rw-r--r--. 1 ugrad 97896 Apr  2 17:59 lab10.o
+-rw-r--r--. 1 ugrad   187 Mar 29 22:07 makefile
+-rw-r--r--. 1 ugrad   574 Apr  2 17:05 README
+-rw-r--r--. 1 ugrad     0 Apr  2 17:59 rec59678
+drwxr-xr-x. 3 ugrad  4096 Apr  2 17:59 test
+
+Yan-Zhenyu-lab10/test:
+total 12
+-r--------. 1 ugrad    7 Apr  2 17:59 123
+-rw-r--r--. 1 ugrad    7 Apr  2 17:59 asss
+drwxr-xr-x. 3 ugrad 4096 Apr  2 17:59 da
+
+Yan-Zhenyu-lab10/test/da:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Apr  2 17:59 wssss
+
+Yan-Zhenyu-lab10/test/da/wssss:
+total 4
+-r--------. 1 ugrad 5 Apr  2 17:59 1222
+/home/ugrads/zhenyu/cs1730/Yan-Zhenyu-lab10/:/home/work/cs1730a

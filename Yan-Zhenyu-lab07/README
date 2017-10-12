@@ -1,0 +1,31 @@
+# Lab 07
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab07 file
+```
+
+## Reflection
+
+Compared to my initial brainstorm, it is easy to read the file 
+and display in the ncurse, but the hard part is the scolling
+I look at the example online and study then implement in my
+code, but I still do not understand the element in  prefreash.
+I will cotinune to study ncurse because it is very cool. I like it.

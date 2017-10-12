@@ -1,0 +1,36 @@
+# Lab 01
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab01
+```
+
+## Reflection
+
+Compared to my initial brainstorm, it is much difficult
+than i through, we need to use left shift and right
+shift to make store the number in the certain position
+but there is a problem when I store. When I store a number
+in the same position, it does not work. for example, like I
+store 1(0001) in position 0, and store 2(0010) in position 0
+again, it will come up 3(0011) in the result. I have to clean
+up all the value in the position without drupting the other
+value, basically just use the left and right shift to clear it
+but just need to think a formular for that.

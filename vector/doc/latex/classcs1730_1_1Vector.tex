@@ -1,0 +1,181 @@
+\hypertarget{classcs1730_1_1Vector}{
+\section{cs1730::Vector Class Reference}
+\label{classcs1730_1_1Vector}\index{cs1730::Vector@{cs1730::Vector}}
+}
+
+
+The `Vector` class stores and operates on numeric vectors of element type `double`.  
+
+
+{\ttfamily \#include $<$Vector.h$>$}\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcs1730_1_1Vector_a9eb37c1c544e3fa304b1a711e28b9ebe}{Vector} (size\_\-t \hyperlink{classcs1730_1_1Vector_a23747645c422e9fd5130a685d254ff09}{dim})
+\begin{DoxyCompactList}\small\item\em Constructs a new `Vector` object. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector_a5f04e343b7306ad11f8a82c89b486764}{Vector} (const \hyperlink{classcs1730_1_1Vector}{Vector} \&v)
+\begin{DoxyCompactList}\small\item\em Construct a new `Vector` object as a copy of another `Vector` object. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector_aa75cb45805c288512a0d67fef2fb210b}{Vector} (const initializer\_\-list$<$ double $>$ \&l)
+\begin{DoxyCompactList}\small\item\em Constructs a new `Vector` object from an initializer list. \item\end{DoxyCompactList}\item 
+\hypertarget{classcs1730_1_1Vector_a2eb3c49587a4f12cade7895ccb73f6a0}{
+\hyperlink{classcs1730_1_1Vector_a2eb3c49587a4f12cade7895ccb73f6a0}{$\sim$Vector} ()}
+\label{classcs1730_1_1Vector_a2eb3c49587a4f12cade7895ccb73f6a0}
+
+\begin{DoxyCompactList}\small\item\em Destructs the `Vector` object. \item\end{DoxyCompactList}\item 
+double \& \hyperlink{classcs1730_1_1Vector_ac6a29c2fc7cf67d333483ba396b96323}{at} (size\_\-t i)
+\begin{DoxyCompactList}\small\item\em Returns the element at index `i`. \item\end{DoxyCompactList}\item 
+double \hyperlink{classcs1730_1_1Vector_a1191a55feadaff0f2e31e504182790c0}{at} (size\_\-t i) const 
+\begin{DoxyCompactList}\small\item\em Returns the element at index `i`. \item\end{DoxyCompactList}\item 
+\hypertarget{classcs1730_1_1Vector_a316edd0365ccd2adeedb5d177d274305}{
+size\_\-t \hyperlink{classcs1730_1_1Vector_a316edd0365ccd2adeedb5d177d274305}{size} () const }
+\label{classcs1730_1_1Vector_a316edd0365ccd2adeedb5d177d274305}
+
+\begin{DoxyCompactList}\small\item\em Returns the size (dimension or length) of this `Vector`. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector}{Vector} \hyperlink{classcs1730_1_1Vector_a730dd3d4c20c41407ae908458a06181b}{operator+} (const double s) const 
+\begin{DoxyCompactList}\small\item\em Returns the sum of this `Vector` and some scaler `s`. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector}{Vector} \hyperlink{classcs1730_1_1Vector_a98369ba060b6c264b596ce30e7ad6b8d}{operator+} (const \hyperlink{classcs1730_1_1Vector}{Vector} \&v) const 
+\begin{DoxyCompactList}\small\item\em Returns the sum of this `Vector` and another `Vector` of the same length. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector}{Vector} \hyperlink{classcs1730_1_1Vector_a0f9928e0ee1dd9efaafd43a020dff3e8}{operator-\/} (const double s) const 
+\begin{DoxyCompactList}\small\item\em Returns the difference of this `Vector` and some scaler `s`. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector}{Vector} \hyperlink{classcs1730_1_1Vector_ac7b9814871af89597bd0888d7db966de}{operator-\/} (const \hyperlink{classcs1730_1_1Vector}{Vector} \&v) const 
+\begin{DoxyCompactList}\small\item\em Returns the difference of this `Vector` and another `Vector` of the same length. \item\end{DoxyCompactList}\item 
+\hyperlink{classcs1730_1_1Vector}{Vector} \& \hyperlink{classcs1730_1_1Vector_ae48c467a9f65d60e2f7455aba4ca1239}{operator=} (const \hyperlink{classcs1730_1_1Vector}{Vector} \&v)
+\begin{DoxyCompactList}\small\item\em Copy assignment operator. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+size\_\-t \hyperlink{classcs1730_1_1Vector_a23747645c422e9fd5130a685d254ff09}{dim}
+\begin{DoxyCompactList}\small\item\em Dimension / length of the vector. \item\end{DoxyCompactList}\item 
+double $\ast$ \hyperlink{classcs1730_1_1Vector_a6f173a4fcd1f5a72580166efd39fc252}{x} = nullptr
+\begin{DoxyCompactList}\small\item\em Pointer to internal array for vector. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The `Vector` class stores and operates on numeric vectors of element type `double`. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcs1730_1_1Vector_a9eb37c1c544e3fa304b1a711e28b9ebe}{
+\index{cs1730::Vector@{cs1730::Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{Vector}]{\setlength{\rightskip}{0pt plus 5cm}Vector::Vector (size\_\-t {\em dim})}}
+\label{classcs1730_1_1Vector_a9eb37c1c544e3fa304b1a711e28b9ebe}
+
+
+Constructs a new `Vector` object. Each element is initialized to 0. 
+\begin{DoxyParams}{Parameters}
+\item[{\em dim}]length of vector \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_a5f04e343b7306ad11f8a82c89b486764}{
+\index{cs1730::Vector@{cs1730::Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{Vector}]{\setlength{\rightskip}{0pt plus 5cm}Vector::Vector (const {\bf Vector} \& {\em v})}}
+\label{classcs1730_1_1Vector_a5f04e343b7306ad11f8a82c89b486764}
+
+
+Construct a new `Vector` object as a copy of another `Vector` object. 
+\begin{DoxyParams}{Parameters}
+\item[{\em v}]vector to copy \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_aa75cb45805c288512a0d67fef2fb210b}{
+\index{cs1730::Vector@{cs1730::Vector}!Vector@{Vector}}
+\index{Vector@{Vector}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{Vector}]{\setlength{\rightskip}{0pt plus 5cm}Vector::Vector (const initializer\_\-list$<$ double $>$ \& {\em l})}}
+\label{classcs1730_1_1Vector_aa75cb45805c288512a0d67fef2fb210b}
+
+
+Constructs a new `Vector` object from an initializer list. 
+\begin{DoxyParams}{Parameters}
+\item[{\em l}]initializer list \end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcs1730_1_1Vector_a1191a55feadaff0f2e31e504182790c0}{
+\index{cs1730::Vector@{cs1730::Vector}!at@{at}}
+\index{at@{at}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}double Vector::at (size\_\-t {\em i}) const}}
+\label{classcs1730_1_1Vector_a1191a55feadaff0f2e31e504182790c0}
+
+
+Returns the element at index `i`. This version is for const objects. 
+\begin{DoxyParams}{Parameters}
+\item[{\em i}]desired index \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_ac6a29c2fc7cf67d333483ba396b96323}{
+\index{cs1730::Vector@{cs1730::Vector}!at@{at}}
+\index{at@{at}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{at}]{\setlength{\rightskip}{0pt plus 5cm}double \& Vector::at (size\_\-t {\em i})}}
+\label{classcs1730_1_1Vector_ac6a29c2fc7cf67d333483ba396b96323}
+
+
+Returns the element at index `i`. 
+\begin{DoxyParams}{Parameters}
+\item[{\em i}]desired index \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_a98369ba060b6c264b596ce30e7ad6b8d}{
+\index{cs1730::Vector@{cs1730::Vector}!operator+@{operator+}}
+\index{operator+@{operator+}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector} Vector::operator+ (const {\bf Vector} \& {\em v}) const}}
+\label{classcs1730_1_1Vector_a98369ba060b6c264b596ce30e7ad6b8d}
+
+
+Returns the sum of this `Vector` and another `Vector` of the same length. 
+\begin{DoxyParams}{Parameters}
+\item[{\em v}]vector to add \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_a730dd3d4c20c41407ae908458a06181b}{
+\index{cs1730::Vector@{cs1730::Vector}!operator+@{operator+}}
+\index{operator+@{operator+}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector} Vector::operator+ (const double {\em s}) const}}
+\label{classcs1730_1_1Vector_a730dd3d4c20c41407ae908458a06181b}
+
+
+Returns the sum of this `Vector` and some scaler `s`. 
+\begin{DoxyParams}{Parameters}
+\item[{\em s}]scaler to add \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_ac7b9814871af89597bd0888d7db966de}{
+\index{cs1730::Vector@{cs1730::Vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector} Vector::operator-\/ (const {\bf Vector} \& {\em v}) const}}
+\label{classcs1730_1_1Vector_ac7b9814871af89597bd0888d7db966de}
+
+
+Returns the difference of this `Vector` and another `Vector` of the same length. 
+\begin{DoxyParams}{Parameters}
+\item[{\em v}]vector to subtract \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_a0f9928e0ee1dd9efaafd43a020dff3e8}{
+\index{cs1730::Vector@{cs1730::Vector}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{operator-\/}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector} Vector::operator-\/ (const double {\em s}) const}}
+\label{classcs1730_1_1Vector_a0f9928e0ee1dd9efaafd43a020dff3e8}
+
+
+Returns the difference of this `Vector` and some scaler `s`. 
+\begin{DoxyParams}{Parameters}
+\item[{\em s}]scaler to subtract \end{DoxyParams}
+\hypertarget{classcs1730_1_1Vector_ae48c467a9f65d60e2f7455aba4ca1239}{
+\index{cs1730::Vector@{cs1730::Vector}!operator=@{operator=}}
+\index{operator=@{operator=}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Vector} \& Vector::operator= (const {\bf Vector} \& {\em v})}}
+\label{classcs1730_1_1Vector_ae48c467a9f65d60e2f7455aba4ca1239}
+
+
+Copy assignment operator. 
+\begin{DoxyParams}{Parameters}
+\item[{\em v}]vector to copy \end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcs1730_1_1Vector_a23747645c422e9fd5130a685d254ff09}{
+\index{cs1730::Vector@{cs1730::Vector}!dim@{dim}}
+\index{dim@{dim}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{dim}]{\setlength{\rightskip}{0pt plus 5cm}size\_\-t {\bf cs1730::Vector::dim}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classcs1730_1_1Vector_a23747645c422e9fd5130a685d254ff09}
+
+
+Dimension / length of the vector. \hypertarget{classcs1730_1_1Vector_a6f173a4fcd1f5a72580166efd39fc252}{
+\index{cs1730::Vector@{cs1730::Vector}!x@{x}}
+\index{x@{x}!cs1730::Vector@{cs1730::Vector}}
+\subsubsection[{x}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ {\bf cs1730::Vector::x} = nullptr\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}
+\label{classcs1730_1_1Vector_a6f173a4fcd1f5a72580166efd39fc252}
+
+
+Pointer to internal array for vector. 
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+Vector.h\item 
+Vector.cpp\end{DoxyCompactItemize}

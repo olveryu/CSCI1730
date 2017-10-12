@@ -1,0 +1,17 @@
+Yan-Zhenyu-lab09/:
+total 200
+-rwxr-xr-x. 1 ugrad  72523 Mar 31 01:02 lab09
+-rw-r--r--. 1 ugrad   5254 Mar 31 01:02 lab09.cpp
+-rw-r--r--. 1 ugrad 102544 Mar 31 01:02 lab09.o
+-rw-r--r--. 1 ugrad    187 Mar 29 22:08 makefile
+-rw-r--r--. 1 ugrad    639 Mar 29 22:05 README
+-rw-r--r--. 1 ugrad      0 Mar 31 01:07 rec42252
+-rwsrwsrwt. 1 ugrad     34 Mar 29 15:57 test1
+prw-r--r--. 1 ugrad      0 Mar 30 11:56 test2
+lrwxrwxrwx. 1 ugrad     16 Mar 31 00:23 test3 -> ../test/Makefile
+drwxr-xr-x. 2 ugrad   4096 Mar 31 00:00 test4
+-rw-rwSrwT. 1 ugrad      0 Mar 31 00:05 test5
+
+Yan-Zhenyu-lab09/test4:
+total 0
+/home/ugrads/zhenyu/cs1730/Yan-Zhenyu-lab09/:/home/work/cs1730a

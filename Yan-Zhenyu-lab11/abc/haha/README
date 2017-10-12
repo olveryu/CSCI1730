@@ -1,0 +1,31 @@
+# Lab 10
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab10 file .........................
+```
+
+## Reflection
+
+Compared to my initial brainstorm, I think this lab should
+be really easy because I have done something similar in
+java, but the annoy part is the -r -f -rf command which is very
+annoying. we need to use a bunch of if else statement to 
+determine the situration and perform action to it.

@@ -1,0 +1,13 @@
+Yan-Kim-p2:
+total 364
+-rw-r--r--. 1 ugrad   1326 Mar 28 23:31 123
+-rwxr-xr-x. 1 ugrad 116613 Mar 28 23:31 main
+-rw-r--r--. 1 ugrad   1251 Mar 28 23:27 main.cpp
+-rw-r--r--. 1 ugrad  86864 Mar 28 23:27 main.o
+-rw-r--r--. 1 ugrad    307 Mar 28 23:27 Makefile
+-rw-r--r--. 1 ugrad    307 Mar 28 23:28 README.txt
+-rw-r--r--. 1 ugrad      0 Mar 28 23:33 rec79431
+-rw-r--r--. 1 ugrad  14815 Mar 28 23:27 textEditor.cpp
+-rw-r--r--. 1 ugrad   1099 Mar 28 23:27 textEditor.h
+-rw-r--r--. 1 ugrad 123264 Mar 28 23:31 textEditor.o
+/home/ugrads/zhenyu/cs1730/Yan-Kim-p2:/home/work/cs1730a

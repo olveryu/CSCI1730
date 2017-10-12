@@ -1,0 +1,40 @@
+# Lab 03
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./exclusive
+$ ./primesum
+$ ./armstrong
+$ ./bitsum
+$ ./endtime
+```
+
+## Reflection
+
+compared to my initial brainstorm，exclusive.cpp just use X OR to find 
+the exclusive number.for Prime sum.cpp, we need to think a algorithm to
+calculate it faster, we can use sqrt() to reudce the run time for the
+first 100000 prime number sum. for armstrong number, we can use % 10 
+and /10 to get the first digit of the number, then we can calculate to
+determine it is a armstrong number or not. for bitsum, I use mask and 
+couter ++ when it appear a "1" on the binary format. for endtime.cpp
+we just use %100 and /100 similiar to the armstrong number to get the
+hour and minutes, then add them up together and convert to the correct
+time.

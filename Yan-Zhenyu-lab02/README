@@ -1,0 +1,39 @@
+# Lab 02
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./stat
+$ ./minmax
+$ ./number
+$ ./degree
+$ ./time
+```
+
+## Reflection
+
+compared to my initial brainstorm，degree.cpp and time.cpp are easy
+just takes user's input and use method to get the result; 
+however in stat.cpp and minmax.cpp, we need to use stringstream to 
+obtain the number in the string which seperated by space. I need to use
+a while loop (stream >> number) to read all the information until reach
+to the end, otherwise, it won't stop reading.
+for number.cpp,the oct,dec and hex format is easy, but the binary format
+I need to separated by space every 4 bit, and I need to use "mask", at the
+end just print out the message

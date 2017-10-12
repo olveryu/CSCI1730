@@ -1,0 +1,29 @@
+# Lab 05
+
+zhenyu Yan (810-670-1500)
+
+## Instructions
+
+To clean my code (i.e., remove any compiled files), type:
+
+```
+$ make clean
+```
+
+To compile my code, type:
+
+```
+$ make
+```
+
+To run my code (after compiling it), type:
+
+```
+$ ./lab05
+```
+
+## Reflection
+
+I tried the ncurse and make it print "HelloWorld", then I tried more stuff
+I create a test.cpp and make a infinity loop to show HelloWorld moving
+around and changed color, it is like the javaFX in java.
